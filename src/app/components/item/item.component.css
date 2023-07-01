@@ -1,0 +1,60 @@
+.container{
+    align-items: center;
+    margin: 20px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+}
+.row{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    margin: 0 30px;
+}
+
+div{
+    padding: 5px 0;
+}
+.completed{
+    color: #ddd;
+    text-decoration: line-through;
+}
+.title{
+    display: flex;
+    width: 30%;
+    padding: 0 5px;
+}
+.price{
+    width: 15%;
+    padding: 0 5px;
+}
+.quantity{
+    width: 10%;
+    padding: 0 5px;
+}
+.completed .total{
+    color: #ddd;
+}
+.total{
+    width: 15%;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    padding: 0 5px;
+}
+.actions{
+    width: 15%;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 5px;
+}
+.actions button{
+    border: 1px solid rgb(102, 35, 45);
+    border-radius: 7px;
+    padding: 7px;
+    width: 100%;
+    box-sizing: border-box;
+    background: none;
+}
+.actions button:hover{
+    background-color: rgb(63, 1, 1);
+    color: #fff;
+}
